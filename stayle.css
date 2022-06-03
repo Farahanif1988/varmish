@@ -1,0 +1,28 @@
+.body {
+    --text_primary: #fff;
+    --text_secondary: #05386b;
+    --background_main: #5cdb95 ;
+}
+
+.navegation {
+  background-color: #5cdb95;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content:space-around;
+  position: sticky;
+  align-items: center;
+  top:0 ;
+}
+.category-favorites {
+    width: 50%;
+    align-items:center;
+}
+.category-home ,.category-my-contetn ,.category-my-favorites ,.category-about-me {
+    font-size: 12px; 
+    color: #05386b;
+    font-weight: bold;
+    align-items: flex-end;
+    text-decoration:none;
+    padding-left: 5%;
+}
